@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+/* shared styles starts */
+.display-flex{
+    display: flex;
+}
+.background-color{
+    background-color: rgb(230, 83, 60);
+}
+.btn{
+    font-weight: 600;
+    font-size: .5rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+.btn-2{
+    background-color: black;
+}
+.text-color{
+    color: white;
+}
+.headline-color{
+    color: rgb(230, 83, 60);
+
+}
+.font-weight{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.font-weight2{
+    font-weight: 400;
+    font-size: 14px;
+}
+.margin-bottom{
+    margin-bottom: 0;
+}
+.margin-top{
+    margin-top: 0;
+}
+/* shared styles ends */
+/* nav styles stats */
+.bg-dark{
+    background-color: green;
+}
+.navbar, .banner,.run-extra{
+justify-content: space-between;
+max-width: 1000px;
+margin: 0 auto;
+align-items: center;
+
+}
+.nav-tittle{
+    font-size: 2rem;
+}
+.nav-links{
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.150);
+    border-radius: 1rem;
+    padding: .5rem;
+
+}
+.nav-item{
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 1.25rem;
+    color: white;
+
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+.nav-links li :hover{
+    background-color:rgba(230, 83, 60, 1.00);
+    border-radius: 1rem;
+    padding:.5rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.hamburger{
+    display: none;
+}
+/* nav styles ends */
+/* banner start */
+.banner-right, .banner-left{
+    /* border: 1px solid blue; */
+    width: 45%;
+      
+}
+.banner-tittle{
+    font-weight: 900;
+    font-size: 3.75rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.miama{
+    font-family: 'Miama', sans-serif;                                             
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+.banner-right > img{
+    width: 50%;
+}
+.banner-right{
+    position: relative;
+}
+.free-workout,.video-tutorial{
+    background-color: rgba(0, 0, 0, 0.170);
+    color: white;
+    width: max-content;
+    padding: 8px 32px;
+    position: absolute;
+
+}
+.free-workout{
+    top: 90px;
+    left: 150px;
+}
+.s_btn{
+    font-size: 2.5rem;
+     font-weight: 900;
+}
+.video-tutorial {
+    bottom: 50px;
+    right: 396px;
+    }
+    .circle{
+        position: relative;
+        
+    }
+.box{
+    background-color:rgb(230, 83, 60);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 88px;
+    top: 16px;
+}
+/* banner end */
+/* main starts */
+.change-habit{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.border-radius {
+    border-radius: 50%;
+}
+.change-habit-h6 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+/* main ends */

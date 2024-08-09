@@ -1,0 +1,75 @@
+@media screen and (max-width : 768px){
+    
+}
+@media screen and (max-width : 576px){
+    
+    .hamburger{
+        display: block;
+        
+    }
+    .nav-links{
+        display: none;
+    }
+    /* banner start */
+    .banner{
+       display: flex ;
+       flex-direction: column ;
+    }
+    .banner-tittle {
+        font-size: 2rem;
+    }
+    .b-btn{
+        display: flex;
+    }
+    .free-workout,.video-tutorial{
+    padding: 0px 12px;
+    }
+    .free-workout {
+        top: 11px;
+        left: 74px;
+    }
+    .s_btn {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .video-tutorial {
+        bottom: 72px;
+        right: 185px;
+        padding: 5px 5px 5px 36px;
+    }
+    .box{
+        right: 63px;
+        top: 7px;
+    }
+    /* banner ends */
+/* main starts */
+    .change-habit {
+   
+    }
+    .font-weight2 {
+        font-size: 30px;
+    }
+    .change-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .run-extra {
+        flex-direction: column;
+    }
+    .run-tittle {
+        font-size: 2.25rem;
+    }
+    .run-extra-right img{
+        margin-top: 1.25rem;
+    }
+    .meet-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* main ends */
+    .footer-top{
+         display: flex;
+        flex-direction: column;
+    }
+}
