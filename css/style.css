@@ -162,4 +162,80 @@ align-items: center;
     font-weight: 600;
     font-size: 1.5rem;
 }
+/* run starts */
+
+.run-extra{
+    background-color:rgba(128, 128, 128, 0.724);
+    margin-top: 25px;
+}
+.run-extra-left , .run-extra-right{
+    width: 40%;
+}
+.run-extra-left{
+     margin-left: 60px;
+     height: 375px
+}
+.run-extra-right  > img{
+    object-fit: none;
+    object-position: 68% 32%;
+    width: 90%;
+    height: 350px;
+    border-radius: 15px;     
+}
+/* run ends */
+/* bmi starts */
+.bmi_calc{
+    text-align: center;
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th , td{
+    padding: 10px 15px;
+  }
+.bmi-form {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(128, 128, 128, 0.724);
+}
+.bmi-h3{
+    font-weight: 900;
+    font-size: 28px;
+}
+ .bmi-right,.bmi-left{
+    width: 40%;
+ }
+ .bmi-right{
+    /* text-align: start; */
+   
+ }
+ form{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 10px;
+ }
+ .bmi-right input , select{
+    border-radius: 8px;
+    padding: 6px;
+ }
+ .i-1, .i-3{
+    grid-column: 1/span 6;
+ }
+ .i-2 , .i-4{
+    grid-column: 7/span 6;
+ }
+ .i-5{
+    grid-column: 1/span 12;
+ }
+ .bm_btn{
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    grid-column: 1/span 4;
+    
+ }
+/* bmi ends */
 /* main ends */

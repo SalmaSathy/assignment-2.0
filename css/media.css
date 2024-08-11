@@ -2,6 +2,12 @@
     
 }
 @media screen and (max-width : 576px){
+    /* shared styles starts */
+    .navbar, .banner,.bmi_calc, .bmi-left , .bmi-right {
+        margin: 0 15px;
+    }
+    /* shared styles starts */
+
     
     .hamburger{
         display: block;
@@ -14,6 +20,7 @@
     .banner{
        display: flex ;
        flex-direction: column ;
+       align-items: flex-start;
     }
     .banner-tittle {
         font-size: 2rem;
@@ -34,7 +41,7 @@
     }
     .video-tutorial {
         bottom: 72px;
-        right: 185px;
+        right: 154px;
         padding: 5px 5px 5px 36px;
     }
     .box{
@@ -47,7 +54,7 @@
    
     }
     .font-weight2 {
-        font-size: 30px;
+            font-size: 14px;
     }
     .change-image{
         display: grid;
@@ -56,13 +63,32 @@
 
     .run-extra {
         flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        flex-grow: 1;
     }
-    .run-tittle {
-        font-size: 2.25rem;
+    .font-weight {
+        font-size: 2rem;
     }
     .run-extra-right img{
         margin-top: 1.25rem;
     }
+    /* bmi starts */
+    .bmi_calc{
+        text-align: start;
+        /* margin: 0 20px; */
+    }
+    .bmi-form{
+        flex-direction: column;
+    }
+    .bm_btn {
+        grid-column: 1 / span 12;
+    }
+    .bmi-right,.bmi-left{
+        width: 55%;
+    }
+    /* bmi ends */
     .meet-images{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
