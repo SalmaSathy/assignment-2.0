@@ -121,5 +121,13 @@
     .footer-top{
          display: flex;
         flex-direction: column;
+        margin-left: 30px;
+    }
+    .footer-top-1 > p{
+        width: 270px;
+    }
+    .footer-bottom > p {
+        margin-left: 26px;
+        text-align: start;
     }
 }

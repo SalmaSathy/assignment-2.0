@@ -291,3 +291,43 @@ table, th, td {
 }
 /* meet ends */
 /* main ends */
+/* footer starts */
+.footer-bg{
+    background-color:rgba(128, 128, 128, 0.724);
+
+}
+footer{
+margin-top: 40px;
+}
+.footer{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.footer-top{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 30px;
+}
+.footer-h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+.footer-top-1{
+    grid-column: 1/span 6;
+}
+.footer-top-2{
+    grid-column: 8/span 2;
+}
+.footer-top-3{
+    grid-column: 11/span 2;
+}
+
+ .footer-bottom > p{
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 20px 0;
+ }
+/* footer ends */
+
