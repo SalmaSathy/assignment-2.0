@@ -1,3 +1,4 @@
+
 @media screen and (max-width : 768px){
     
 }
@@ -89,10 +90,33 @@
         width: 55%;
     }
     /* bmi ends */
+    /* meet starts */
     .meet-images{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .meet-img-1 , .meet-img-4{
+        display: none;
+    }
+    .meet-img-2{
+        order: 0;
+    }
+    .meet-img-3{
+        order: 2;
+    } 
+    .meet-img-5{
+        order: 1;
+    }
+    .meet-img-6{
+        order: 3;
+    }
+    .image-properties {
+        height: 400px;
+    }
+    .meet-text {
+        top: 350px; 
+    }
+    /* meet ends */
     /* main ends */
     .footer-top{
          display: flex;
