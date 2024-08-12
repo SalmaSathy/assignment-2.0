@@ -69,6 +69,12 @@
         align-content: flex-start;
         flex-grow: 1;
     }
+    .run-extra-left {
+        height: auto;
+    }
+    .run-btn{
+        padding: 10px 93px;
+    }
     .font-weight {
         font-size: 2rem;
     }
@@ -117,6 +123,24 @@
         top: 350px; 
     }
     /* meet ends */
+    /* contact starts */
+    .contact-head{
+        width: 340px;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form >input {
+        padding: 10px 10px;
+        width: 50%;
+        background-color: white;
+    }
+    .contact-form > button {
+        width: 54%;
+        margin-top: 10px;
+    }
+    /* contact ends */
     /* main ends */
     .footer-top{
          display: flex;

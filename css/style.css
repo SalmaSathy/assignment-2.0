@@ -7,10 +7,13 @@
     font-style: normal;
   }
 /* shared styles starts */
-.display-flex{
+ body{
+    background-color: black;
+}
+.display-flex{ 
     display: flex;
 }
-.background-color{
+.background-color, .contact-form > input,.contact-form > button{
     background-color: rgb(230, 83, 60);
 }
 .btn{
@@ -22,8 +25,10 @@
 }
 .btn-2{
     background-color: black;
+    border: 1px solid white;
+    margin-left: 10px;
 }
-.text-color{
+.text-color ,.contact-form > button{
     color: white;
 }
 .headline-color{
@@ -46,9 +51,6 @@
 }
 /* shared styles ends */
 /* nav styles stats */
-.bg-dark{
-    background-color: green;
-}
 .navbar, .banner,.run-extra{
 justify-content: space-between;
 max-width: 1000px;
@@ -158,6 +160,7 @@ align-items: center;
 }
 .border-radius {
     border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.150);
 }
 .change-habit-h6 {
     font-weight: 600;
@@ -185,7 +188,7 @@ align-items: center;
 }
 /* run ends */
 /* bmi starts */
-.bmi_calc{
+.bmi_calc, .contact{
     text-align: center;
     background-color: black;
 }
@@ -200,6 +203,7 @@ table, th, td {
     display: flex;
     justify-content: space-evenly;
     background-color:rgba(128, 128, 128, 0.724);
+    padding-bottom: 10px;
 }
 .bmi-h3{
     font-weight: 900;
@@ -293,6 +297,21 @@ table, th, td {
     height: 250px;
 }
 /* meet ends */
+/* contact starts */
+.contact-form >input{
+    margin-right: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    
+}
+.contact-form > button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+}
+/* contact ends */
 /* main ends */
 /* footer starts */
 .footer-bg{
