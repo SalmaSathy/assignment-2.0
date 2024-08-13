@@ -12,7 +12,7 @@
     
     .hamburger{
         display: block;
-        
+        color: white;    
     }
     .nav-links{
         display: none;
@@ -51,9 +51,6 @@
     }
     /* banner ends */
 /* main starts */
-    .change-habit {
-   
-    }
     .font-weight2 {
             font-size: 14px;
     }
@@ -61,7 +58,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
     .run-extra {
         flex-direction: column;
         display: flex;
@@ -84,7 +80,6 @@
     /* bmi starts */
     .bmi_calc{
         text-align: start;
-        /* margin: 0 20px; */
     }
     .bmi-form{
         flex-direction: column;

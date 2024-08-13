@@ -28,12 +28,19 @@
     border: 1px solid white;
     margin-left: 10px;
 }
-.text-color ,.contact-form > button{
+.text-decoration{
+    text-decoration: none;
     color: white;
+}
+
+.text-headline, h6,th{
+    color: white;
+}
+.text-color ,.contact-form > button, tr ,td, p{
+    color: rgba(255, 255, 255, 0.5);
 }
 .headline-color{
     color: rgb(230, 83, 60);
-
 }
 .font-weight{
     font-weight: 900;
@@ -58,6 +65,9 @@ margin: 0 auto;
 align-items: center;
 
 }
+.banner{
+    background-image: linear-gradient(to bottom, #000000, #0e0d0e, #171717, #1f1e1e, #272626, #272626, #272626, #272626, #1f1e1e, #171717, #0e0d0e, #000000);
+}
 .nav-tittle{
     font-size: 2rem;
 }
@@ -66,7 +76,6 @@ align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.150);
     border-radius: 1rem;
     padding: .5rem;
-
 }
 .nav-item{
     font-weight: 600;
@@ -74,19 +83,16 @@ align-items: center;
     text-decoration: none;
     margin-right: 1.25rem;
     color: white;
-
 }
 .menu ul li:last-child a{
     margin-right: 0;
 }
-
 .nav-links li :hover{
     background-color:rgba(230, 83, 60, 1.00);
     border-radius: 1rem;
     padding:.5rem;
     font-weight: 600;
     cursor: pointer;
-
 }
 .hamburger{
     display: none;
@@ -94,9 +100,7 @@ align-items: center;
 /* nav styles ends */
 /* banner start */
 .banner-right, .banner-left{
-    /* border: 1px solid blue; */
-    width: 45%;
-      
+    width: 45%;     
 }
 .banner-tittle{
     font-weight: 900;
@@ -110,7 +114,6 @@ align-items: center;
 .banner-description{
     font-weight: 400;
     font-size: 1rem;
-
 }
 .banner-right > img{
     width: 50%;
@@ -119,12 +122,11 @@ align-items: center;
     position: relative;
 }
 .free-workout,.video-tutorial{
-    background-color: rgba(0, 0, 0, 0.170);
+    background-color: rgba(255, 255, 255, 0.10);
     color: white;
     width: max-content;
     padding: 8px 32px;
-    position: absolute;
-
+    position: absolute
 }
 .free-workout{
     top: 90px;
@@ -133,14 +135,14 @@ align-items: center;
 .s_btn{
     font-size: 2.5rem;
      font-weight: 900;
+     text-decoration: none;
 }
 .video-tutorial {
     bottom: 50px;
     right: 396px;
     }
     .circle{
-        position: relative;
-        
+        position: relative;     
     }
 .box{
     background-color:rgb(230, 83, 60);
@@ -212,10 +214,6 @@ table, th, td {
  .bmi-right,.bmi-left{
     width: 40%;
  }
- .bmi-right{
-    /* text-align: start; */
-   
- }
  form{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -225,6 +223,8 @@ table, th, td {
     border-radius: 8px;
     padding: 6px;
     border: none;
+    color: rgba(255, 255, 255, 0.6);
+    background-color:rgb(128 128 128 / 27%)
  }
  .i-1, .i-3{
     grid-column: 1/span 6;
